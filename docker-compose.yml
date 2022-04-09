@@ -7,6 +7,7 @@ services:
     environment:
       DOCKER_MODS: ${DOCKER_MODS:-linuxserver/mods:plex-absolute-hama}
       PGID: ${PGID:-1000}
+      PLEX_CLAIM:
       PUID: ${PUID:-1000}
     network_mode: host
     restart: unless-stopped
