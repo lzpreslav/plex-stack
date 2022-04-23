@@ -3,7 +3,7 @@ version: "3.9"
 
 services:
   plex:
-    image: lscr.io/linuxserver/plex:${PLEX_TAG:-1.25.9}
+    image: lscr.io/linuxserver/plex:${PLEX_TAG:-1.26.0}
     environment:
       DOCKER_MODS: ${DOCKER_MODS:-linuxserver/mods:plex-absolute-hama}
       PGID: ${PGID:-1000}
